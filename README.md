@@ -1,5 +1,9 @@
 # Dynamic-Pricing-Prediction-For-Cabs-Using-IBM-Watson
 
-Many organizations do not have a direct role in travel and tourism but offer related products and services. Some examples would be offering travel insurance, parking facilities at airports, theatre and event tickets, car hire, and travel by rail or coach to airports, etc. at competitive rates. There are various different forms of dynamic pricing:
-1. Peak Pricing – This is a strategy that is common in transportation businesses. Airlines are a good example. Airlines often charge a higher price to travel during rush hour mostly on weekdays and sometimes on weekends.
-2. Surge Pricing – Companies such as Uber respond dynamically to changes in supply and demand in order to price their services differently. Like most of us have noticed, this frequently happens on stormy evenings and nights when more people request for cabs. Taxify also not so long ago introduced dynamic pricing to ensure the drivers are encouraged to go online and offer services when the demand is high.
+Every day the price of travel was changed due to the demand for public uses. The framework developed for the price prediction is analyzed for the travel plans. For the same travel plan offered at a fixed price for a particular group of customers, our proposed model saw a final fare with a lesser number of errors in predicting customer planning. As time progresses and more data are collected, the supervised learning will produce more accurate results and will be helpful in determining fare optimizer and dynamic availability of adjustments and continuously improve future recommendations.
+
+Built a Flask Application which calls HTML pages index.html, index1.html, result.html stored in the templates folder and a python script app.py for server side scripting
+The model is built in the notebook Dynamic-Price-Prediction-For-Cabs.ipynb
+The model is saved in model.pkl.
+The static folder contains a css file which is used in the html file.
+The flask app is denoted as app.py
